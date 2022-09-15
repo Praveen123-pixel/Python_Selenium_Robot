@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220911 10:20:15.080" rpa="false" schemaversion="3">
+<suite id="s1" name="testCases" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases">
+<suite id="s1-s1" name="Loginpage" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases\loginpage">
+<suite id="s1-s1-s1" name="Loginpage" source="C:\Users\aayushi.kumari01\Downloads\RobotframeworkUiAutomation-20220909T161310Z-001\RobotframeworkUiAutomation\testCases\loginpage\loginpage.robot">
+<test id="s1-s1-s1-t1" name="Verify the main menu options on home screen" line="14">
+<kw name="Launch The Application" library="utilities.config.Test_Config" type="SETUP">
+<status status="PASS" starttime="20220911 10:20:17.480" endtime="20220911 10:20:24.503"/>
+</kw>
+<kw name="Given verify the main menu options" library="TestKeyword.test_home_page.Test_HOMEPAGE">
+<status status="PASS" starttime="20220911 10:20:24.503" endtime="20220911 10:20:24.790"/>
+</kw>
+<kw name="Close The Application" library="utilities.config.Test_Config" type="TEARDOWN">
+<status status="PASS" starttime="20220911 10:20:24.791" endtime="20220911 10:20:24.949"/>
+</kw>
+<status status="PASS" starttime="20220911 10:20:17.478" endtime="20220911 10:20:24.949"/>
+</test>
+<status status="PASS" starttime="20220911 10:20:15.136" endtime="20220911 10:20:24.951"/>
+</suite>
+<status status="PASS" starttime="20220911 10:20:15.130" endtime="20220911 10:20:24.954"/>
+</suite>
+<status status="PASS" starttime="20220911 10:20:15.085" endtime="20220911 10:20:24.956"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="testCases">testCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Loginpage">testCases.Loginpage</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Loginpage">testCases.Loginpage.Loginpage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
